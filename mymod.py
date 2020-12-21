@@ -10,4 +10,4 @@ def hello(name):
 
 
 for i in range(5):
-    print('Welcome to mymod!')
+    print(f'Welcome to {__name__}!')
