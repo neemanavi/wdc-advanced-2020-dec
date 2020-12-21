@@ -7,3 +7,7 @@ z = {'a': 1, 'b': 2, 'c': 3}
 
 def hello(name):
     return f'Hello, {name}!'
+
+
+for i in range(5):
+    print('Welcome to mymod!')
