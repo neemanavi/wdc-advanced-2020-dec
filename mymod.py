@@ -13,3 +13,4 @@ def hello(name):
 
 for i in range(5):
     print(f'Welcome to {__name__}!')
+    print(random.randint(0, 10))
