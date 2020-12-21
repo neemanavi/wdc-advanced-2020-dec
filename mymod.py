@@ -11,6 +11,7 @@ def hello(name):
     return f'Hello, {name}!'
 
 
-for i in range(5):
-    print(f'Welcome to {__name__}!')
-    print(random.randint(0, 10))
+if __name__ == '__main__':
+    for i in range(5):
+        print(f'Welcome to {__name__}!')
+        print(random.randint(0, 10))
