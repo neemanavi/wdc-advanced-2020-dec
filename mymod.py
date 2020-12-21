@@ -11,6 +11,7 @@ def hello(name):
     return f'Hello, {name}!'
 
 
+# if we're running as a standalone program...
 if __name__ == '__main__':
     for i in range(5):
         print(f'Welcome to {__name__}!')
